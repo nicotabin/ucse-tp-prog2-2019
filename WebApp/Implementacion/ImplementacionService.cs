@@ -10,6 +10,11 @@ namespace Implementacion
 {
     public class ImplementacionService : IServicioWeb
     {
+        public Resultado AltaAlumno(Hijo hijo, UsuarioLogueado usuarioLogueado)
+        {
+            throw new NotImplementedException();
+        }
+
         public Resultado AltaDirectora(Directora directora, UsuarioLogueado usuarioLogueado)
         {
             throw new NotImplementedException();
@@ -50,6 +55,11 @@ namespace Implementacion
             throw new NotImplementedException();
         }
 
+        public Resultado EditarAlumno(int id, Hijo hijo, UsuarioLogueado usuarioLogueado)
+        {
+            throw new NotImplementedException();
+        }
+
         public Resultado EditarDirectora(int id, Directora directora, UsuarioLogueado usuarioLogueado)
         {
             throw new NotImplementedException();
@@ -61,6 +71,11 @@ namespace Implementacion
         }
 
         public Resultado EditarPadreMadre(int id, Padre padre, UsuarioLogueado usuarioLogueado)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Resultado EliminarAlumno(int id, Hijo hijo, UsuarioLogueado usuarioLogueado)
         {
             throw new NotImplementedException();
         }
@@ -85,6 +100,11 @@ namespace Implementacion
             throw new NotImplementedException();
         }
 
+        public Hijo ObtenerAlumnoPorId(UsuarioLogueado usuarioLogueado, int id)
+        {
+            throw new NotImplementedException();
+        }
+
         public Grilla<Hijo> ObtenerAlumnos(UsuarioLogueado usuarioLogueado, int paginaActual, int totalPorPagina, string busquedaGlobal)
         {
             throw new NotImplementedException();
@@ -95,7 +115,17 @@ namespace Implementacion
             throw new NotImplementedException();
         }
 
+        public Directora ObtenerDirectoraPorId(UsuarioLogueado usuarioLogueado, int id)
+        {
+            throw new NotImplementedException();
+        }
+
         public Grilla<Directora> ObtenerDirectoras(UsuarioLogueado usuarioLogueado, int paginaActual, int totalPorPagina, string busquedaGlobal)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Docente ObtenerDocentePorId(UsuarioLogueado usuarioLogueado, int id)
         {
             throw new NotImplementedException();
         }
@@ -111,6 +141,11 @@ namespace Implementacion
         }
 
         public string ObtenerNombreGrupo()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Padre ObtenerPadrePorId(UsuarioLogueado usuarioLogueado, int id)
         {
             throw new NotImplementedException();
         }
